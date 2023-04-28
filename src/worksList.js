@@ -1,5 +1,6 @@
 import goalify from './images/goalify.png'
 import middlebet from './images/middlebet.png'
+import gpt from './images/gpt.png'
 
 const worksList = [
   {
@@ -19,6 +20,14 @@ const worksList = [
     detailedDesc: 'Получился лаконичный сайт, который полностью демонстрирует все преимущества продукта',
     link: 'https://midllebet.ru',
     id: 2
+  },
+  {
+    title : 'GPT CAIC',
+    desc : '3D Логотип',
+    img: gpt,
+    problem: 'Клиент нуждался в логотипе для своего бота',
+    detailedDesc: 'Получился логотип, который наглядно демонстрирует симбиоз человека и технологий на основе искусственного интеллекта.',
+    id: 3
   },
 ]
 
