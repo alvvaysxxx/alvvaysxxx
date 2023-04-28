@@ -18,7 +18,7 @@ export default function Work() {
       <p className = 'p-right'>{found.problem}</p>
       <h2 className = 'title'>Итог</h2>
       <p className = 'text'>{found.detailedDesc}</p>
-      <a href = {found.link} target = '__blank'><h2 className = 'title link displayInline'>Результат</h2><img src = {arrow} className = 'item-arrow'/></a>
+      {found.hasOwnProperty('link') ? (<a href={found.link} target="__blank"><h2 className="title link displayInline">Результат</h2><img src={arrow} className="item-arrow" /></a>) : (<h2 className="title link displayInline">Ссылка отсутствует</h2>)}
     </div>
   )
 }
