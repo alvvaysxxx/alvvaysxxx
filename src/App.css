@@ -154,6 +154,10 @@ a {
   font-family: 'Inter';
 }
 
+.mb40 {
+  margin-bottom: 40px;
+}
+
 .p-right {
   text-align: right;
   text-align: end;
