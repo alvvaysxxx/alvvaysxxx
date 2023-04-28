@@ -4,7 +4,7 @@ import services from '../services'
 
 export default function Services() {
   return (
-    <div className = 'servicesPage'>
+    <div className = 'servicesPage mb40'>
       <BackButton />
       <h3 className = 'title2'>Мои услуги.</h3>
       {services.map((service, index) => {
