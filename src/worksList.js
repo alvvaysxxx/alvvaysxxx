@@ -22,7 +22,7 @@ const worksList = [
     id: 2
   },
   {
-    title : 'GPT CAIC',
+    title : 'GPT CAIC ХУЙ',
     desc : '3D Логотип',
     img: gpt,
     problem: 'Клиент нуждался в логотипе для своего бота',
